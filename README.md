@@ -10,7 +10,9 @@ Exemplo: caso informado o valor 55, a sequência exibida será: 0, 1, 1, 2, 3, 5
 
 A solução da <b>Pergunta 3</b> consiste na leitura de um arquivo Json que contém uma lista de 30 objetos, representando um mês. Cada objeto contém um dado "dia" e um dado "valor". O arquivo foi lido e as saídas foram: o menor valor do arquivo e o maior valor do arquivo. Além disso, também é exibido para o usuário a quantidade de dias nos quais os valores foram maiores que a média mensal. A aplicação não inclui os dados cujos valores são "0", nem para a média nem a para saída do menor valor.
 
-A solução da <b>Pergunta 4</b> 
+A solução da <b>Pergunta 4</b> consiste na exibição da contribuição do faturamento de cada estado no formato de porcentagem. Foi opcional a quantidade de casas decimais, de forma que optei por utilizar duas casas. Os valores de faturamento de cada estado foram previamente definidos no código por meio das respectivas variáveis. No código, foi realizado o cálculo do faturamento total e a partir desse dado foi possível calcular a contribuição.
+
+A solução da <b>Pergunta 5</b> consiste em solicitar uma palavra ao usuário e a aplicação retornar a palavra reversa, ou seja, invertendo os caracteres da palavra. Para tanto, solicitou-se inicialmente o tamanho da palavra.
 
 
 ### Tecnologias
@@ -24,7 +26,7 @@ Para a solução foram utilizadas as linguagens <b>C</b> e <b>Java</b>, de forma
                                                                                                   
 ### Ferramentas de desenvolvimento
 
-Para o desenvolvimento das aplicações, foram utilizadas duas ferramentas: <b>Visual Code</b> para as soluções em C e <b>Netbeans</b> para as soluções em Java. Assim, as soluções da Sequência de Fibonacci e da Palavra Reversa foram realizadas no Visual Code. Já para a realização da leitura do arquivo Json e posterior exibição do resultado, assim como para a exibição do resultado da contribuição de cada estado, a ferramenta utilizada foi a Netbeans.
+Para o desenvolvimento das aplicações, foram utilizadas duas ferramentas: <b>Visual Code</b> para as soluções em C e <b>Netbeans</b> para as soluções em Java. Assim, as soluções da Sequência de Fibonacci (Pergunta 2) e da Palavra Reversa (Pergunta 5) foram realizadas no Visual Code. Já para a realização da leitura do arquivo Json e posterior exibição do resultado (Pergunta 3), assim como para a exibição do resultado da contribuição de cada estado (Pergunta 4), a ferramenta utilizada foi a Netbeans.
 
 <p display="inline-block">
   <img width="48" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png" alt="vscode-logo"/>
@@ -35,8 +37,6 @@ Para o desenvolvimento das aplicações, foram utilizadas duas ferramentas: <b>V
 Para a leitura da aplicação resultante da <b>Pergunta 2</b>, o Java deve possuir a dependência "Gson" do Google.
 
 ## Referências
-[About issues - GitHub Docs](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues)
+[Leitura de Json por meio de Gson](https://attacomsian.com/blog/gson-read-json-file)
 
-[About wikis - GitHub Docs](https://docs.github.com/en/communities/documenting-your-project-with-wikis/about-wikis)
-
-[About discussions - GitHub Docs](https://docs.github.com/en/discussions/collaborating-with-your-community-using-discussions/about-discussions)
+[Dependência Gson](https://mvnrepository.com/artifact/com.google.code.gson/gson/2.8.6)
