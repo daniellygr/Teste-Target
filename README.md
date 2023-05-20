@@ -1,6 +1,3 @@
-<h1 align="center">Teste de Estágio</h1>
-<p align="center"><i>Repositório para versionamento e documentação dos testes.</i></p>
-
 ##  Sobre o projeto
 
 Esse repositório consiste no versionamento das soluções propostas no teste aplicado pela empresa.
