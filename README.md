@@ -31,7 +31,7 @@ Para o desenvolvimento das aplicações, foram utilizadas duas ferramentas: <b>V
 </p>
 
 ## Leitura
-Para a leitura da aplicação resultante da <b>Pergunta 2</b>, o Java deve possuir a dependência "Gson" do Google.
+Para a leitura da aplicação resultante da <b>Pergunta 3</b>, o Java deve possuir a dependência "Gson" do Google.
 
 ## Referências
 [Leitura de Json por meio de Gson](https://attacomsian.com/blog/gson-read-json-file)
